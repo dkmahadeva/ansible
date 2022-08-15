@@ -1,0 +1,9 @@
+# A Sample Ansible Playbook with only 1 Play and 1 Task
+---
+- name: Check Uptime on Servers
+  hosts: all
+  tasks:
+  - name: Run uptime Command
+    command: uptime
+...
+  
